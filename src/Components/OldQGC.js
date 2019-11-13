@@ -34,7 +34,6 @@ class QuoteGeneratorContainer extends React.Component {
     )
   }
    
-  
 }
 
 const mapStateToProps = (state) => ({

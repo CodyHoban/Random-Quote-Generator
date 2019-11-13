@@ -20,3 +20,35 @@
 .App-link {
   color: #09d3ac;
 }
+
+.background{
+  background: rgb(3, 34, 30);
+  text-align: center;
+  padding: 20px;
+  color: rgba(12, 81, 94, 0.801);
+
+}
+
+.words {
+  font-size: 30px;
+  height: 200px;
+  text-align: left;
+  padding-top: 40px;
+}
+
+.thePerson {
+  font-size: 18px;
+  text-align: right;
+  padding: 60px;
+}
+
+.press {
+  background-color: rgb(65, 27, 27);
+  border: 1px solid silver;
+  font-size: 24px;
+
+}
+
+.press:hover {
+  box-shadow: 0 12px 16px 0 rgba(216, 14, 14, 0.514);
+}

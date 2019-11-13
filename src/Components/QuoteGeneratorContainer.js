@@ -1,7 +1,7 @@
 import React from 'react';
 import Quotes from './Quotes';
 import {connect} from 'react-redux'
-
+import '../App.css'
 
 
 class QuoteGeneratorContainer extends React.Component {
@@ -19,13 +19,13 @@ class QuoteGeneratorContainer extends React.Component {
     render() {
 
     return (
-        <div id="quote-box">
+        <div className="background" id="quote-box">
           <h3>Your New Quote!</h3>
           {console.log(this.props)}
-          <h2>{this.props.randomQuote[this.props.quote].quote}</h2>
-          <h2>{this.props.randomQuote[this.props.quote].author}</h2>
-          <button onClick={this.newRandomQuote}></button>
-      </div>
+          <h2 className="words">{this.props.randomQuote[this.props.quote].quote}</h2>
+          <h2 className="thePerson">{this.props.randomQuote[this.props.quote].author}</h2>
+          <button className="press" onClick={this.newRandomQuote}>New Words</button>
+        </div>
     
     )
   }
